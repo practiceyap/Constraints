@@ -1,5 +1,5 @@
 # Constraints
-
+<pre>
 ```swift
  // Провести проверку по корректности лейблов (profileLogin, profileDescription) - trailing нужен ли для них или нет.Ё
         NSLayoutConstraint.activate([
@@ -25,3 +25,4 @@
             logOutButton.centerYAnchor.constraint(equalTo: profileImageView.centerYAnchor)
         ])
 ```
+</pre>
